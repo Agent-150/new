@@ -25,7 +25,7 @@ async def media_receive_handler(_, m: Message):
     if file:
         file_name = file.file_name
     log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
-    stream_link = Var.URL + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
+    stream_link = Var.URL + str(log_msg.id) + '/' +quote_plus(file_name) if file_name else ''
     stream_links = f"https://1.url2go.in/intresting"
     await m.reply_text(
         text=f"https://stream.shorturllink.in/st?api=07f8d7c16a18b62808b6c0b41e69065d17d1de93&url={stream_link}",
