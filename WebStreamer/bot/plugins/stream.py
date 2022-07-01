@@ -30,5 +30,5 @@ async def media_receive_handler(_, m: Message):
     await m.reply_text(
         text=f"https://playdisk.xyz/st?api=07f8d7c16a18b62808b6c0b41e69065d17d1de93&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Hey🖐, Checkout My Blog', url=https://shadowtecz.blogspot.com/)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Hey🖐, Checkout My Blog', url=stream_links)]])
     )
