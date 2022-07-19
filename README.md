@@ -1,6 +1,7 @@
  <a href="https://telegram.me/A2z_tech">
     <img src="https://di5qs4dv32t01.cloudfront.net/wp-content/uploads/2021/12/telegram-34.jpg" width="250">
   </a><br>
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fcoder%2Fdeploy-code-server&envs=PASSWORD%2CGIT_REPO&optionalEnvs=GIT_REPO&PASSWORDDesc=Your+password+to+log+in+to+code-server&GIT_REPODesc=A+git+repo+to+auto-clone+and+open+in+code-server+%28e.g+https%3A%2F%2Fgithub.com%2Fcoder%2Fdocs%29)
 
 Press the below button to deploy to Heroku
 
